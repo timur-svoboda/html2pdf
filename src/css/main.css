@@ -8,41 +8,40 @@ body {
 
 .front__wrapper {
   margin: 0 auto;
-  padding-top: 2.2cm;
+  padding-top: 1.5cm;
 }
 
 .front__title {
   text-align: center;
-  font-size: 0.4cm;
-  margin-bottom: 0.3cm;
+  font-size: 0.45cm;
+  margin-bottom: 0.4cm;
 }
 
 .front__subtitle {
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: 0;
-  font-size: 0.35cm;
-  letter-spacing: 0.002cm;
+  font-size: 0.43cm;
 }
 
 .front__table {
-  margin: 2cm auto 0;
+  margin: 2.4cm auto 0;
   border-collapse: collapse;
 }
 
 .front__table-cell {
-  font-size: 0.4cm;
+  font-size: 0.45cm;
   vertical-align: top;
-  padding-bottom: 0.2cm;
+  padding-bottom: 0.25cm;
 }
 
 .front__table-cell--first {
   font-weight: bold;
-  width: 5.8cm;
+  width: 7cm;
 }
 
 .front__table-cell--second {
   border-bottom: 0.026cm solid #000;
   padding-left: 0.2cm;
-  width: 16.5cm;
+  width: 19.7cm;
 }
