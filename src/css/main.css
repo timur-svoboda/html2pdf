@@ -1,41 +1,48 @@
+body {
+  margin: 0;
+}
+
 /* ##############################
 ** Front
 ** ############################## */
 
 .front__wrapper {
   margin: 0 auto;
-  padding-top: 45px;
+  padding-top: 2.2cm;
 }
 
 .front__title {
   text-align: center;
-  font-size: 16px;
+  font-size: 0.4cm;
+  margin-bottom: 0.3cm;
 }
 
 .front__subtitle {
   text-align: center;
   font-weight: bold;
   margin-top: 0;
+  font-size: 0.35cm;
+  letter-spacing: 0.002cm;
 }
 
 .front__table {
-  margin: 70px auto 0;
+  margin: 2cm auto 0;
   border-collapse: collapse;
 }
 
 .front__table-cell {
-  font-size: 14px;
+  font-size: 0.4cm;
   vertical-align: top;
-  padding-bottom: 5px;
+  padding-bottom: 0.2cm;
 }
 
 .front__table-cell--first {
   font-weight: bold;
-  width: 220px;
+  width: 5.8cm;
 }
 
 .front__table-cell--second {
-  border-bottom: 1px solid #000;
-  padding-left: 6px;
-  width: 620px;
+  border-bottom: 0.026cm solid #000;
+  padding-left: 0.2cm;
+  width: 16.5cm;
 }
