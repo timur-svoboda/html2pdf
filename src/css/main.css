@@ -134,3 +134,35 @@ body {
 .controller-sitr-table .sub td:first-child {
   padding-left: 1cm;
 }
+
+/* ##############################
+** Controller Imagae
+** ############################## */
+
+.image-wrapper {
+  border: 0.026cm solid #000000;
+  position: relative;
+}
+
+.image-wrapper--xl {
+  height: 19.73cm;
+  padding: 0 2.968cm 0.5088cm 3.8796cm;
+}
+
+.image-wrapper__image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.image-wrapper__caption {
+  text-align: center;
+  font-size: 0.45cm;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.02cm;
+}
