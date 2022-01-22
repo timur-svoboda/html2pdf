@@ -294,3 +294,52 @@ body {
 .sub-table--1 td:last-child {
   border: none;
 }
+
+/* ##############################
+** IK Projectors Table
+** ############################## */
+
+.sign-form {
+  margin-bottom: 0.85cm;
+}
+
+.sign-form__name {
+  font-weight: bold;
+  font-size: 0.47cm;
+  padding-left: 0.25cm;
+  margin-bottom: 1.2cm;
+}
+
+.sign-form__field {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.05cm;
+  border-top: 0.026cm solid #000000;
+  font-size: 0.4cm;
+}
+
+.sign-form__field--occupation {
+  width: 38%;
+  margin-right: 2%; 
+}
+
+.sign-form__field--sign {
+  width: 28%;
+  margin-right: 2%;
+}
+
+.sign-form__field--coding {
+  width: 25.5%;
+}
+
+.sign-form__field--slash {
+  position: relative;
+}
+
+.sign-form__field--slash:before {
+  content: "/";
+  position: absolute;
+  right: -0.25cm;
+  top: -0.7cm;
+  font-size: 0.5cm;
+}
