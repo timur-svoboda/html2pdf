@@ -235,3 +235,62 @@ body {
 .sensor-table .v-center {
   vertical-align: middle;
 }
+
+/* ##############################
+** IK Projectors Table
+** ############################## */
+
+.ik-projectors-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ik-projectors-table td,
+.ik-projectors-table th {
+  border: 0.026cm solid #000000;
+  vertical-align: top;
+}
+
+.ik-projectors-table th {
+  padding: 0.02cm 0 0.08cm;
+  background-color: #D9D9D9;
+}
+
+.ik-projectors-table td {
+  padding: 0.04cm 0.2cm 0.09cm;
+}
+
+.ik-projectors-table .number {
+  display: inline-block;
+  width: 0.7cm;
+}
+
+.ik-projectors-table .first-th {
+  width: 46.35%;
+}
+
+.ik-projectors-table .second-th {
+  width: 9.1%;
+}
+
+.ik-projectors-table .table-container {
+  padding: 0;
+}
+
+.ik-projectors-table .sub-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ik-projectors-table .h-center {
+  text-align: center;
+}
+
+.sub-table--1 td {
+  border: none;
+  border-right: 0.026cm solid #000000;
+}
+
+.sub-table--1 td:last-child {
+  border: none;
+}
