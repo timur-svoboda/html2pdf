@@ -7,7 +7,10 @@ body {
 }
 
 .main-layout {
-  padding: 1.5cm 1.65cm 1.5cm 2.15cm;
+  /* padding: 1.5cm 1.65cm 1.5cm 2.15cm; */
+  padding: 1.5cm 1.65cm 0 2.15cm;
+  height: 24cm;
+  position: relative;
 }
 
 .header {
@@ -44,6 +47,10 @@ body {
 
 .page-number {
   text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   font-size: 0.45cm;
 }
 
@@ -136,7 +143,7 @@ body {
 }
 
 /* ##############################
-** Controller Imagae
+** Image Wrapper
 ** ############################## */
 
 .image-wrapper {
@@ -146,7 +153,12 @@ body {
 
 .image-wrapper--xl {
   height: 19.73cm;
-  padding: 0 2.968cm 0.5088cm 3.8796cm;
+  padding: 0 2.968cm 0.52cm 3.8796cm;
+}
+
+.image-wrapper--md {
+  height: 10.176cm;
+  padding: 0 0.318cm 0.52cm;
 }
 
 .image-wrapper__image {
